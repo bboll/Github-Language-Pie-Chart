@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <?php
+	  //Github app keys stored as environment variables
+	  $CLIENT_ID = $_ENV["GH_BASIC_CLIENT_ID"];
+	  $CLIENT_SECRET = $_ENV["GH_BASIC_SECRET_ID"];
     
-	  //repos_url = Github API user ID + auth token
-      $repos_url = "";
+      $repos_url = "https://api.github.com/users/bboll/repos?client_id=" . $CLIENT_ID . "&client_secret=" . $CLIENT_SECRET;
       $ch = curl_init($repos_url);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       curl_setopt($ch, CURLOPT_USERAGENT, "Language graph used for bboll's personal site");
@@ -17,8 +19,8 @@
       $langArray = [];
       foreach($repoList as $repo)
       {
-		//concatenate auth token
-      	$languages_url = $repo->languages_url . "?client_id=";
+		//Concatenate auth token
+      	$languages_url = $repo->languages_url . "?client_id=" . $CLIENT_ID;
       	$ch = curl_init($languages_url);
       	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       	curl_setopt($ch, CURLOPT_USERAGENT, "Language graph used for user bboll's personal site");
