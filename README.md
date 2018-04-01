@@ -1,5 +1,5 @@
 # Github-Language-Pie-Chart
-PHP script that scrapes a Github profile and generates a pie chart showing programming language makeup.
+Pulls your Github repo data and generates a pie chart showing programming language makeup. Uses Github authentication.
 
 Project status: Currently converting from something I used once for myself to a tool others can use
 
