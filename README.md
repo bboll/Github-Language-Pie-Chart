@@ -4,3 +4,7 @@ PHP script that scrapes a Github profile and generates a pie chart showing progr
 Project status: Currently converting from something I used once for myself to a tool others can use
 
 Hosted here currently: http://www.brianboll.com/piechart/piechart.php
+
+Example of what mine looked like:
+
+<img src="http://www.brianboll.com/piechart/example.png"></img>
