@@ -10,4 +10,4 @@ Example of what mine looked like:
 <img src="http://www.brianboll.com/piechart/example.png"></img>
 
 
-Future endeavors: Use a library like D3.js for better image resolutions, more options, etc. Build a front-end allowing users to generate their own with different options like font size, show/hide percentages, etc.
+**Future endeavors:** Use a library like D3.js for better image resolutions and more options. Build a front-end allowing users to generate their own with different options like font size, show/hide percentages, etc.
