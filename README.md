@@ -1,7 +1,7 @@
 # Github-Language-Pie-Chart
 Pulls your Github repo data and generates a pie chart showing programming language makeup. Uses Github authentication.
 
-Project status: Currently converting from something I used once for myself to a tool others can use
+**Project status:** Currently converting from something I used once for myself to a tool others can use
 
 Hosted here currently: http://www.brianboll.com/piechart/piechart.php
 
