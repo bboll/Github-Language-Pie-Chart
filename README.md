@@ -1,7 +1,7 @@
 # Github Language Pie Chart <img src="http://www.brianboll.com/piechart/example.png" width="24" height="24">
 Pulls your Github repo data and generates a pie chart showing programming language makeup. Uses Github authentication.
 
-#### Project status 
+#### Project Status 
 Currently converting from something I used once for myself to a tool others can use
 
 #### Instructions
