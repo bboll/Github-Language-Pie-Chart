@@ -1,4 +1,5 @@
-# Github Language Pie Chart <img src="http://www.brianboll.com/piechart/example.png" width="24" height="24">
+[![Build Status](https://travis-ci.org/bboll/Github-Language-Pie-Chart.svg?branch=master)](https://travis-ci.org/bboll/Github-Language-Pie-Chart)
+# Github Language Pie Chart <img src="http://www.brianboll.com/piechart/example.png" width="24" height="24"> 
 Pulls your Github repo data and generates a pie chart showing programming language makeup. Uses Github authentication.
 
 #### Project Status 
